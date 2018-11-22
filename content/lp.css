@@ -13,6 +13,16 @@
   left: auto;
   right: -50px;
 }
+.lp .lp__grid.lp__grid--finish .lp__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.lp .lp__grid.lp__grid--finish .lp__title {
+  max-width: 400px;
+}
 .lp .lp__img {
   position: relative;
   width: 50%;
@@ -73,6 +83,35 @@
   color: #333333;
   margin: 0 0 10px 0;
   z-index: 5;
+}
+.lp .lp__quote {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.lp .lp__quote-text {
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: "nunitoregular", Arial, sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1;
+  margin: 0;
+}
+.lp .lp__quote-input {
+  display: block;
+  width: 100%;
+  outline: none;
+  flex-shrink: 1;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background-color: transparent;
+  font-size: 24px;
+  line-height: 1;
+  font-style: italic;
+  margin: 0 0 0 10px;
 }
 @media only screen and (min-width: 1600px) {
   .lp .lp__img.lp__img--1 {
